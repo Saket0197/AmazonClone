@@ -181,3 +181,83 @@
     cursor: pointer;
     padding: 0.2rem;
 }
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    background-image: url("/Assets/hero_image.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-msg-container{
+    height: 2.5rem;
+    width: 92%;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 3.5rem;
+    bottom: 2.5rem;
+    font-size: 0.85rem;
+}
+
+.hero-msg-link, .box-images-data .see-more{
+    color: #0071A1;
+    text-decoration: none;
+}
+
+.hero-msg-link:hover, .box-images-data .see-more:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color:hsl(14, 94%, 51%)
+}
+
+.shopping-section{
+    width: 100%;
+    height: 47rem;
+    background-image: linear-gradient(#324065,#E3E6E6), linear-gradient(#CBDBDB,#E3E6E6);
+    background-position: left top, 47.75% top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 47.75% 100%, 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-list{
+    display: grid;
+    height: 100%;
+    width: 92%;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(15rem,auto);
+    gap: 1rem;
+}
+
+.box-images-data{
+    height: 95%;
+    width :100%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.4rem;
+}
+
+.box-images-data > h2{
+    text-align: left;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.list-img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
