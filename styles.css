@@ -334,6 +334,7 @@
 .lists > li{
     margin: 1rem 0;
     cursor: pointer;
+    width: fit-content;
 }
 
 .lists > li:hover {
@@ -371,6 +372,7 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .footer-panel-info{
@@ -385,6 +387,7 @@
     border-radius: 0.2rem;
     height: 100%;
     padding: 0.4rem 0.4rem;
+    cursor: pointer;
 }
 
 .footer-US-flag{
